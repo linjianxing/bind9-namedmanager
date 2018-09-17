@@ -8,7 +8,7 @@ LABEL "com.conceptant.vendor"="Conceptant, Inc."
 ENV MYSQL_NM_PASSWORD "n9p7zD7DC3Xn2BQg"
 
 ENV NM_API_URL "http://localhost:8090"
-ENV NM_API_SERVER_NAME "localhost"
+ENV NM_API_SERVER_NAME "ns1.ccs.internal.chuchujie.com"
 
 RUN apt-get update \
     && apt-get install -y \
